@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "HackWins Fintech Security",
+    "slug": "hackwins-fintech",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hackwins.fintech"
+    },
+    "android": {
+      "package": "com.hackwins.fintech",
+      "permissions": [
+        "READ_SMS",
+        "RECEIVE_SMS",
+        "READ_PHONE_STATE",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "hackwins"
+  }
+}
